@@ -90,7 +90,6 @@ body {
 	}
 }
 
-
 a:link {
 	text-decoration: none;
 }
@@ -157,6 +156,11 @@ a:link {
 .gallery-img > center > img {
 	width:33%;
 	vertical-align: middle;
+	max-width: 200px;
+}
+
+.gallery-img > center > span {
+	
 }
 
 .gallery-logo > center > a > img {
