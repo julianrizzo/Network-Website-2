@@ -10,7 +10,7 @@ body {
 .banner {
 	background-image: url('../Images/neon-lines.jpg');
 	background-attachment: fixed;
-	height: 200px;
+	height: 200px; 
 }
 
 .banner > a > img {
@@ -160,7 +160,7 @@ a:link {
 }
 
 .gallery-img > center > span {
-	
+
 }
 
 .gallery-logo > center > a > img {
