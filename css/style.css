@@ -8,7 +8,7 @@ body {
 }
 
 .banner {
-	background-image: url('../Images/line.jpg');
+	background-image: url('../Images/neon-lines.jpg');
 	background-attachment: fixed;
 	height: 200px;
 }
@@ -42,13 +42,17 @@ body {
 	position: fixed;
 }
 
+.jumbotron {
+	margin-top: 60px;
+}
+
 .content-boxes {
 	width: 50%;
 	margin: 0 auto;
 	text-align: center;
 	height: 700px;
 	font-size: 0;
-	margin-top: 70px;
+	margin-top: 30px;
 }
 
 .box {
@@ -68,6 +72,7 @@ body {
 	color: white;
 	text-transform: uppercase;
 	transform: translateX(-50%) translateY(-50%);
+	text-shadow: 0px 0px 4px #000000;
 }
 
 .box.single {
@@ -84,7 +89,6 @@ body {
 		width: 100% !important;
 	}
 }
-
 
 
 a:link {
@@ -119,6 +123,44 @@ a:link {
 }
 
 .share-title {
+	padding-top:20px;
+	padding-bottom:10px;
 	color:#FFFFFF;
 	font-size:25px;
+}
+
+.Content {
+	margin-top:60px;
+	padding: 50px;
+}
+
+.sub-heading {
+	font-weight:bold;
+	line-height: 70%;
+	font-size:15px;
+}
+
+.description {
+	padding-left:15px;
+	font-size:15px;
+}
+
+.description-list {
+	padding-left:15px;
+	font-size:15px;
+}
+
+.gallery {
+	margin:40px;
+}
+
+.gallery-img > center > img {
+	width:33%;
+	vertical-align: middle;
+}
+
+.gallery-logo > center > a > img {
+	width:100px;
+	padding:20px;
+	vertical-align: middle;
 }
