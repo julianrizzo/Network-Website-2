@@ -99,8 +99,8 @@ a:link {
 }
 
 .fit {
-	max-width: 99%;
-	max-height: 99%;
+	max-width: 100%;
+	max-height: 100%;
 	display:block;
 	margin-left: auto;
 	margin-right: auto;
@@ -125,12 +125,12 @@ a:link {
 	padding-top:20px;
 	padding-bottom:10px;
 	color:#FFFFFF;
-	font-size:25px;
+	font-size:20px;
 }
 
 .Content {
 	margin-top:60px;
-	padding: 50px;
+	padding: 100px;
 }
 
 .sub-heading {
@@ -149,22 +149,16 @@ a:link {
 	font-size:15px;
 }
 
-.gallery {
-	margin:40px;
+.gallery-img {
+	float: left;
 }
 
-.gallery-img > center > img {
-	width:33%;
-	vertical-align: middle;
-	max-width: 200px;
+.gallery > center > .gallery-img > img {
+	height: 150px;
 }
 
-.gallery-img > center > span {
-
-}
-
-.gallery-logo > center > a > img {
-	width:100px;
-	padding:20px;
-	vertical-align: middle;
+.gallery > center > .gallery-logo > a > img {
+	height: 100px;
+	padding-bottom: 30px;
+	margin: 20px;
 }
