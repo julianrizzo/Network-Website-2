@@ -107,10 +107,11 @@ a:link {
 }
 
 .footer {
-	margin-top: 10px;
+	margin-top: 50px;
 	background-color: #303030;
 	height: 200px;
 	width: 100%;
+	float: right;
 }
 
 .share-icons {
@@ -155,6 +156,7 @@ a:link {
 
 .gallery > center > .gallery-img > img {
 	height: 150px;
+	margin: 15px;
 }
 
 .gallery > center > .gallery-logo > a > img {
