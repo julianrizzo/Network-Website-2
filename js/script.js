@@ -18,7 +18,7 @@ $document.ready(function() {
 	});
 
 	$('.ui-rocket').click(function() {
-		alert("Hi Mum");
+		alert("Hello");
 	});
 
 });
